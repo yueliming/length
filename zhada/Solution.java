@@ -5,8 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Stack;
-
-
 public class Solution {
 	
 	private static double MILE_METER;
