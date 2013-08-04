@@ -5,8 +5,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 import java.util.Stack;
-public class Solution {
-	
+public class Solution {	
 	private static double MILE_METER;
 	private static double YARD_METER;
 	private static double INCH_METER;
@@ -15,7 +14,6 @@ public class Solution {
 	private static double FURLONG_METER;
 	private static double[] othersToMeter = new double[6];//不同单位和m的换算关系
 	private static double[] computeResult = new double[10];//将它们转换成m，并对含有"+"和"-"运算符的表达式计算的结果
-	
 	
 	//读取input.txt中的文件将表达式的运算结果存入othersToMeter1数组中
 	public static void readFile(String filename) throws FileNotFoundException{
